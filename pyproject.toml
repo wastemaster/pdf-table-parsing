@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pdf-table"
+version = "0.1.0"
+description = ""
+authors = ["Evgeny Chernyshov <evgeny.chernyshov@hkeeper.global>"]
+readme = "README.md"
+packages = [{include = "pdf_table"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tabula-py = "^2.7.0"
+camelot = "^12.6.29"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
